@@ -10,12 +10,16 @@ section{
     justify-content: space-around;
 }
 
-header{
+header, footer{
     background-color: #1f2937;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
+}
+
+footer{
+    height: 100px;
 }
 
 .logo{
@@ -149,4 +153,36 @@ img{
     font-size: 18px;
     font-weight: bold;
     margin-right: 20px;
+}
+
+.call-action{
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 1000px;
+    padding: 25px;
+    background-color: #3882f6;
+}
+
+.call-body{
+    color: white;
+}
+
+.call-bold{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-signup{
+    font-size: 16px;
+    font-weight: bold;
+    align-self: center;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 25px 5px 25px;
+    transition: background-color 0.2s; 
 }
